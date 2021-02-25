@@ -1,6 +1,10 @@
+// React
 import React from "react";
 import "./App.css";
 
-const App = () => <div>QR Code Maker</div>;
+// Custom components
+import QRGenerator from "./components/QRGenerator";
+
+const App = () => <QRGenerator />;
 
 export default App;
